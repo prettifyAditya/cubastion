@@ -6,46 +6,8 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
 
-const clientData = [
-    {
-        id: 1,
-        imgSrc: "/assets/images/others/client1.png"
-    },
-    {
-        id: 2,
-        imgSrc: "/assets/images/others/client2.png"
-    },
-    {
-        id: 3,
-        imgSrc: "/assets/images/others/client3.png"
-    },
-    {
-        id: 4,
-        imgSrc: "/assets/images/others/client4.png"
-    },
-    {
-        id: 5,
-        imgSrc: "/assets/images/others/client5.png"
-    },
-    {
-        id: 6,
-        imgSrc: "/assets/images/others/client6.png"
-    },
-    {
-        id: 7,
-        imgSrc: "/assets/images/others/client7.png"
-    },
-    {
-        id: 8,
-        imgSrc: "/assets/images/others/client1.png"
-    },
-    {
-        id: 9,
-        imgSrc: "/assets/images/others/client2.png"
-    },
-]
-
-export default function ClientsSec() {
+export default function ClientsSec({ data }) {
+    if(!data) return null
     const swiperRef = useRef(null);
     return(
         <section>
@@ -78,10 +40,10 @@ export default function ClientsSec() {
                         onSwiper={(swiper) => (swiperRef.current = swiper)}
                     >
                         {
-                            clientData.map((data) => (
-                                <SwiperSlide key={data.id}>
+                            data.map((client) => (
+                                <SwiperSlide key={client.id}>
                                     <figure>
-                                        <Image src={data.imgSrc} alt="Client Logo" width="150" height="70"></Image>
+                                        <Image src={client.imgSrc} alt="Client Logo" width="150" height="70"></Image>
                                     </figure>
                                 </SwiperSlide>
                             ))

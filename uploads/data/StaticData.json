@@ -6,6 +6,48 @@
             "buttonText": "Get to Know Us",
             "imgSrc": "/assets/images/home/about_img.jpg"
         },
+        "Section3": [
+            {
+                "id": 1,
+                "imgSrc": "/assets/images/others/client1.png"
+            },
+            {
+                "id": 2,
+                "imgSrc": "/assets/images/others/client2.png"
+            },
+            {
+                "id": 3,
+                "imgSrc": "/assets/images/others/client3.png"
+            },
+            {
+                "id": 4,
+                "imgSrc": "/assets/images/others/client4.png"
+            },
+            {
+                "id": 5,
+                "imgSrc": "/assets/images/others/client5.png"
+            },
+            {
+                "id": 6,
+                "imgSrc": "/assets/images/others/client6.png"
+            },
+            {
+                "id": 7,
+                "imgSrc": "/assets/images/others/client7.png"
+            },
+            {
+                "id": 8,
+                "imgSrc": "/assets/images/others/client1.png"
+            },
+            {
+                "id": 9,
+                "imgSrc": "/assets/images/others/client2.png"
+            }
+        ],
+        "Section4": {
+            "heading": "Services & Solutions",
+            "subheading": "End-to-end technology capabilities designed to solve real  business challenges."
+        },
         "Section6" : {
             "heading": "Our Customer Success Stories",
             "customerData": [

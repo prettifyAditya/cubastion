@@ -8,9 +8,12 @@ import ExpertInsights from "./ExpertInsights";
 import CustomerSec from "./CustomerSec";
 import staticData from "@/uploads/data/StaticData.json"
 import "@/uploads/styles/home/home.css"
+import ServicesSec from "./ServicesSec";
 
 export default function Homepage() {
     const aboutSecData = staticData.Homepage.Section2
+    const clientsData = staticData.Homepage.Section3
+    const servicesData = staticData.Homepage.Section4
     const customerSecData = staticData.Homepage.Section6
     const HighlightsSecData = staticData.Homepage.Section7
     const expertSecData = staticData.Homepage.Section8
@@ -18,7 +21,8 @@ export default function Homepage() {
         <main>
             <HeroSection />
             <AboutSec data={aboutSecData} />
-            <ClientsSec />
+            <ClientsSec data={clientsData} />
+            <ServicesSec data={servicesData} />
             <IndustriesSec />
             <CustomerSec data={customerSecData} />
             <HighlightsSec data={HighlightsSecData} />
