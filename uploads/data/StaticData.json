@@ -6,6 +6,43 @@
             "buttonText": "Get to Know Us",
             "imgSrc": "/assets/images/home/about_img.jpg"
         },
+        "Section6" : {
+            "heading": "Our Customer Success Stories",
+            "customerData": [
+                {
+                    "id": "1",
+                    "mediaType": "image",
+                    "mediaSrc": "/assets/images/testimonial/testimonial1.jpg",
+                    "customerLogo": "/assets/images/testimonial/testlogo1.svg",
+                    "customerTitle": "FORCE 2.0 in Action - A CloudNative Transformation for CRR and Service Excellence",
+                    "caseStudyLink": "https://www.prettifycreative.com/"
+                },
+                {
+                    "id": "2",
+                    "mediaType": "image",
+                    "mediaSrc": "/assets/images/testimonial/testimonial2.jpg",
+                    "customerLogo": "/assets/images/testimonial/testlogo2.svg",
+                    "customerTitle": "FORCE 2.0 in Action - A CloudNative Transformation for CRR and Service Excellence",
+                    "caseStudyLink": "https://www.prettifycreative.com/"
+                },
+                {
+                    "id": "3",
+                    "mediaType": "image",
+                    "mediaSrc": "/assets/images/testimonial/testimonial3.jpg",
+                    "customerLogo": "/assets/images/testimonial/testlogo3.svg",
+                    "customerTitle": "FORCE 2.0 in Action - A CloudNative Transformation for CRR and Service Excellence",
+                    "caseStudyLink": "https://www.prettifycreative.com/"
+                },
+                {
+                    "id": "4",
+                    "mediaType": "image",
+                    "mediaSrc": "/assets/images/testimonial/testimonial4.jpg",
+                    "customerLogo": "/assets/images/testimonial/testlogo4.svg",
+                    "customerTitle": "FORCE 2.0 in Action - A CloudNative Transformation for CRR and Service Excellence",
+                    "caseStudyLink": "https://www.prettifycreative.com/"
+                }
+            ]
+        },
         "Section7": {
             "heading": "Company Highlights",
             "subheading": "Quantified impact across projects, industries, and client partnerships, delivering measurable results and long term business value.",
@@ -63,6 +100,53 @@
                 {
                     "id": "7",
                     "imgSrc": "/assets/images/others/client7.png"
+                }
+            ]
+        },
+        "Section8": {
+            "heading": "Our Expert Insights",
+            "expertSliderData": [
+                {
+                    "id": "1",
+                    "imgSrc": "/assets/images/home/expert1.jpg",
+                    "heading": "Software Product Development",
+                    "desc": "Turn your idea into a live software product tailored to fit your customers & business needs and delivered within a short time-to-market.",
+                    "btnText": "Read More"
+                },
+                {
+                    "id": "2",
+                    "imgSrc": "/assets/images/home/expert2.jpg",
+                    "heading": "Software Product Development",
+                    "desc": "Turn your idea into a live software product tailored to fit your customers & business needs and delivered within a short time-to-market.",
+                    "btnText": "Read More"
+                },
+                {
+                    "id": "3",
+                    "imgSrc": "/assets/images/home/expert3.jpg",
+                    "heading": "Software Product Development",
+                    "desc": "Turn your idea into a live software product tailored to fit your customers & business needs and delivered within a short time-to-market.",
+                    "btnText": "Read More"
+                },
+                {
+                    "id": "4",
+                    "imgSrc": "/assets/images/home/expert1.jpg",
+                    "heading": "Software Product Development",
+                    "desc": "Turn your idea into a live software product tailored to fit your customers & business needs and delivered within a short time-to-market.",
+                    "btnText": "Read More"
+                },
+                {
+                    "id": "5",
+                    "imgSrc": "/assets/images/home/expert2.jpg",
+                    "heading": "Software Product Development",
+                    "desc": "Turn your idea into a live software product tailored to fit your customers & business needs and delivered within a short time-to-market.",
+                    "btnText": "Read More"
+                },
+                {
+                    "id": "6",
+                    "imgSrc": "/assets/images/home/expert3.jpg",
+                    "heading": "Software Product Development",
+                    "desc": "Turn your idea into a live software product tailored to fit your customers & business needs and delivered within a short time-to-market.",
+                    "btnText": "Read More"
                 }
             ]
         }
