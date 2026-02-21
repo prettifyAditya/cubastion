@@ -1,9 +1,69 @@
 {
     "Homepage": {
-        "data": {
-            "heading": "We are simplifying the <span> healthcare financial journey</span> for all partners.",
-            "subheading": "We build innovative financial ecosystems where institutional commitment is continually rewarded. By creating a cycle of dependable value, we ensure essential access is affordable, predictable, and seamless for everyone involved.",
-            "homeServices": [
+        "Section2": {
+            "heading": "19 Years of Delivering",
+            "subheading": "With 19 years of consistent delivery, we have helped businesses achieve measurable outcomes through strong execution, proven capability, and dependable processes. Our focus on quality, reliability, and long-term partnerships has enabled us to deliver complex projects with confidence and zero delivery failures.",
+            "buttonText": "Get to Know Us",
+            "imgSrc": "/assets/images/home/about_img.jpg"
+        },
+        "Section7": {
+            "heading": "Company Highlights",
+            "subheading": "Quantified impact across projects, industries, and client partnerships, delivering measurable results and long term business value.",
+            "countData": [
+                {
+                    "id": "1",
+                    "countNo": "90%",
+                    "countHeading": "Client Retention Rate",
+                    "countSubHeading": "Consistent delivery and trusted long-term client relationships."
+                },
+                {
+                    "id": "2",
+                    "countNo": "19+",
+                    "countHeading": "Years of Experience",
+                    "countSubHeading": "Nearly two decades of reliable technology execution."
+                },
+                {
+                    "id": "3",
+                    "countNo": "10+",
+                    "countHeading": "Industries Served",
+                    "countSubHeading": "Experience delivering solutions across diverse industries."
+                },
+                {
+                    "id": "4",
+                    "countNo": "500+",
+                    "countHeading": "Projects Delivered",
+                    "countSubHeading": "Proven track record of successfully delivered projects."
+                }
+            ],
+            "clientData": [
+                {
+                    "id": "1",
+                    "imgSrc": "/assets/images/others/client1.png"
+                },
+                {
+                    "id": "2",
+                    "imgSrc": "/assets/images/others/client2.png"
+                },
+                {
+                    "id": "3",
+                    "imgSrc": "/assets/images/others/client3.png"
+                },
+                {
+                    "id": "4",
+                    "imgSrc": "/assets/images/others/client4.png"
+                },
+                {
+                    "id": "5",
+                    "imgSrc": "/assets/images/others/client5.png"
+                },
+                {
+                    "id": "6",
+                    "imgSrc": "/assets/images/others/client6.png"
+                },
+                {
+                    "id": "7",
+                    "imgSrc": "/assets/images/others/client7.png"
+                }
             ]
         }
     }
