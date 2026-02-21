@@ -8,6 +8,11 @@ export default function ServicesSec({ data }){
                         <h2>{data.heading}</h2>
                         <p>{data.subheading}</p>
                     </div>
+                    <div className="service_wrapper">
+                        <div className="filter_wrapper">
+                            
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
