@@ -46,7 +46,137 @@
         ],
         "Section4": {
             "heading": "Services & Solutions",
-            "subheading": "End-to-end technology capabilities designed to solve real  business challenges."
+            "subheading": "End-to-end technology capabilities designed to solve real  business challenges.",
+            "filterData": [
+                {
+                    "id": "1",
+                    "filterQues": "What stage is your digital initiative currently in?",
+                    "quesTypeData": [
+                        {
+                            "id": "1",
+                            "typeQues": "Idea"
+                        },
+                        {
+                            "id": "2",
+                            "typeQues": "Proof of Concept"
+                        },
+                        {
+                            "id": "3",
+                            "typeQues": "Prototype"
+                        },
+                        {
+                            "id": "4",
+                            "typeQues": "MVP"
+                        },
+                        {
+                            "id": "5",
+                            "typeQues": "Production"
+                        },
+                        {
+                            "id": "6",
+                            "typeQues": "Legacy System"
+                        }
+                    ]
+                },
+                {
+                    "id": "2",
+                    "filterQues": "What is your primary business goal?",
+                    "quesTypeData": [
+                        {
+                            "id": "1",
+                            "typeQues": "Idea"
+                        },
+                        {
+                            "id": "2",
+                            "typeQues": "Proof of Concept"
+                        },
+                        {
+                            "id": "3",
+                            "typeQues": "Prototype"
+                        },
+                        {
+                            "id": "4",
+                            "typeQues": "MVP"
+                        },
+                        {
+                            "id": "5",
+                            "typeQues": "Production"
+                        },
+                        {
+                            "id": "6",
+                            "typeQues": "Legacy System"
+                        }
+                    ]
+                },
+                {
+                    "id": "3",
+                    "filterQues": "What kind of metrics are typically measured?",
+                    "quesTypeData": [
+                        {
+                            "id": "1",
+                            "typeQues": "Idea"
+                        },
+                        {
+                            "id": "2",
+                            "typeQues": "Proof of Concept"
+                        },
+                        {
+                            "id": "3",
+                            "typeQues": "Prototype"
+                        },
+                        {
+                            "id": "4",
+                            "typeQues": "MVP"
+                        },
+                        {
+                            "id": "5",
+                            "typeQues": "Production"
+                        },
+                        {
+                            "id": "6",
+                            "typeQues": "Legacy System"
+                        }
+                    ]
+                }
+            ],
+            "serviceData": [
+                {
+                    "id": "1",
+                    "bgpattern": "/assets/vector/service_bg1.svg",
+                    "serviceName": "AI Foundation",
+                    "vectorImg": "/assets/vector/service_vector1.svg"
+                },
+                {
+                    "id": "2",
+                    "bgpattern": "/assets/vector/service_bg1.svg",
+                    "serviceName": "CX Engineering",
+                    "vectorImg": "/assets/vector/service_vector1.svg"
+                },
+                {
+                    "id": "3",
+                    "bgpattern": "/assets/vector/service_bg1.svg",
+                    "serviceName": "Data Engineering",
+                    "vectorImg": "/assets/vector/service_vector1.svg"
+                },
+                {
+                    "id": "4",
+                    "bgpattern": "/assets/vector/service_bg1.svg",
+                    "serviceName": "Data Governance",
+                    "vectorImg": "/assets/vector/service_vector1.svg"
+                },
+                {
+                    "id": "5",
+                    "bgpattern": "/assets/vector/service_bg1.svg",
+                    "serviceName": "Field Services",
+                    "vectorImg": "/assets/vector/service_vector1.svg"
+                },
+                {
+                    "id": "6",
+                    "bgpattern": "/assets/vector/service_bg1.svg",
+                    "serviceName": "Data Engineering",
+                    "vectorImg": "/assets/vector/service_vector1.svg"
+                }
+            ]
         },
         "Section6" : {
             "heading": "Our Customer Success Stories",

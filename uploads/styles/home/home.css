@@ -250,6 +250,287 @@
   max-width: 500px;
   margin: 0 auto 60px;
 }
+.services_sec .service_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: start;
+  --gap: 10px;
+  gap: var(--gap);
+}
+.services_sec .service_wrapper .filter_wrapper {
+  flex: 0 1 auto;
+  max-width: 45%;
+  width: 100%;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col {
+  cursor: pointer;
+  border-radius: 10px;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col:not(:last-child) {
+  margin-bottom: 10px;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col.disabled {
+  cursor: no-drop;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col.active {
+  background: var(--white);
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col.active .filter_title {
+  border-bottom: none;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  cursor: pointer;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col.active .filter_title .count, .services_sec .service_wrapper .filter_wrapper .filter_col.active .filter_title h6 {
+  color: var(--black);
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col.active .filter_title .plus {
+  --bgcolor: var(--black);
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col.active .filter_title .plus::after {
+  transform: scaleY(0);
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col.active .filter_dropdown {
+  opacity: 1;
+  height: 280px;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col.active .filter_dropdown .filter_type_wrap {
+  display: flex;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_title {
+  padding: 30px 25px;
+  border: 1px solid #D2D2D2;
+  border-radius: 10px;
+  display: flex;
+  gap: 10px;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_title .count {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.4);
+  line-height: 1.3;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_title h6 {
+  font-size: 16px;
+  line-height: 1.3;
+  color: rgba(0, 0, 0, 0.4);
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_title .plus {
+  margin-left: auto;
+  --bgcolor: var(--text);
+  --size: 20px;
+  --border: 2px;
+  height: var(--size);
+  width: var(--size);
+  position: relative;
+  position: relative;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_title .plus::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  background: var(--bgcolor);
+  transition: 0.5s ease;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_title .plus::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  background: var(--bgcolor);
+  transition: 0.5s ease;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_title .plus::before, .services_sec .service_wrapper .filter_wrapper .filter_col .filter_title .plus::after {
+  transition: 0.5s ease;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_title .plus::before {
+  top: calc(var(--size) / 2 - var(--border) / 2);
+  bottom: auto;
+  height: var(--border);
+  width: 100%;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_title .plus::after {
+  left: calc(var(--size) / 2);
+  translate: -50% 0;
+  right: auto;
+  width: var(--border);
+  height: 100%;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_dropdown {
+  border: 1px solid #D2D2D2;
+  border-radius: 0 0 10px 10px;
+  border-top: none;
+  height: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_type_wrap {
+  padding: 0 25px 20px;
+  display: none;
+  flex-wrap: wrap;
+  gap: 12px 10px;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_type_wrap .ques_type_col {
+  position: relative;
+  flex: 0 1 auto;
+  background: var(--white);
+  color: var(--text);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 6px 20px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 400;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_type_wrap .ques_type_col:hover, .services_sec .service_wrapper .filter_wrapper .filter_col .filter_type_wrap .ques_type_col:has(input:checked), .services_sec .service_wrapper .filter_wrapper .filter_col .filter_type_wrap .ques_type_col.active {
+  background: var(--gradient-a);
+  color: var(--white);
+  border-color: transparent;
+}
+.services_sec .service_wrapper .filter_wrapper .filter_col .filter_type_wrap .ques_type_col input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+  cursor: pointer;
+}
+.services_sec .service_wrapper .filter_service_wrap {
+  flex: 1;
+  max-width: calc(55% - var(--gap));
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px 10px;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col {
+  position: relative;
+  border: 1px solid #D2D2D2;
+  --padlr: 28px;
+  --padtb: 29px;
+  padding: var(--padtb) var(--padlr);
+  border-radius: 10px;
+  overflow: hidden;
+  min-height: 266px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  position: relative;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  background: var(--white);
+  transition: 0.5s ease;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  background: var(--gradient-a);
+  transition: 0.5s ease;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col::after {
+  opacity: 0;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col:hover::before {
+  opacity: 0;
+  z-index: -1;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col:hover::after {
+  opacity: 1;
+  z-index: 0;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col:hover .bg_pattern {
+  opacity: 1;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col:hover figcaption h6 {
+  color: var(--white);
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col:hover figcaption .vector_img {
+  transform-origin: left;
+  transform: scale(0.6) translate(0px, calc(-1 * var(--padtb) * 2.5));
+  filter: brightness(1);
+  opacity: 1;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col:hover figcaption .btn {
+  transform: translate(-50%, 0);
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col .bg_pattern {
+  position: absolute;
+  width: 60px;
+  right: var(--padlr);
+  top: 50%;
+  transform: translate(0, -50%);
+  opacity: 0;
+  transition: 0.5s ease;
+  z-index: 1;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col figcaption {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col figcaption h6 {
+  font-size: 16px;
+  opacity: 0.7s ease;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col figcaption .vector_img {
+  position: absolute;
+  z-index: inherit;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  width: 125px;
+  filter: brightness(0);
+  opacity: 0.1;
+  transition: 0.5s ease;
+}
+.services_sec .service_wrapper .filter_service_wrap .service_col figcaption .btn {
+  width: 100%;
+  position: absolute;
+  z-index: inherit;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-200%, 0);
+}
 
 .customer_sec .heading {
   text-align: center;

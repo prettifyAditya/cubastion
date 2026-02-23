@@ -1283,6 +1283,13 @@ img, video {
 .btn.w-100 {
   width: 100%;
 }
+.btn.medium {
+  --height: 36px;
+}
+.btn.small {
+  --height: 32px;
+  font-size: 14px;
+}
 @media only screen and (max-width: 540px) {
   .btn {
     font-size: 12px;
