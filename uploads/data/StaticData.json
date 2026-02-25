@@ -322,5 +322,232 @@
                 }
             ]
         }
+    },
+
+    "AboutUs": {
+        "Section1": {
+            "heading": "About Us",
+            "subheading": "19 Years of delivering positive business impact with capability and zero failure",
+            "bgmedia": "/assets/video/aboutus_banner.mp4",
+            "ceodetails": {
+                "imgsrc": "/assets/images/about-us/ceo_image.png",
+                "name": "Ravi Kumar",
+                "desgn": "Chief Executive Officer"
+            }
+        }, 
+        "Section3": [
+            {
+                "id": "1",
+                "imgSrc": "/assets/images/about-us/client1.svg"
+            },
+            {
+                "id": "2",
+                "imgSrc": "/assets/images/about-us/client2.svg"
+            },
+            {
+                "id": "3",
+                "imgSrc": "/assets/images/about-us/client3.svg"
+            },
+            {
+                "id": "4",
+                "imgSrc": "/assets/images/about-us/client4.svg"
+            },
+            {
+                "id": "5",
+                "imgSrc": "/assets/images/about-us/client5.svg"
+            },
+            {
+                "id": "6",
+                "imgSrc": "/assets/images/about-us/client6.svg"
+            },
+            {
+                "id": "7",
+                "imgSrc": "/assets/images/about-us/client7.svg"
+            },
+            {
+                "id": "8",
+                "imgSrc": "/assets/images/about-us/client8.svg"
+            },
+            {
+                "id": "9",
+                "imgSrc": "/assets/images/about-us/client9.svg"
+            },
+            {
+                "id": "10",
+                "imgSrc": "/assets/images/about-us/client10.svg"
+            },
+            {
+                "id": "11",
+                "imgSrc": "/assets/images/about-us/client11.svg"
+            },
+            {
+                "id": "12",
+                "imgSrc": "/assets/images/about-us/client12.svg"
+            }
+        ],
+        "Section4": {
+            "heading": "Meet the Cubastion Leadership Team",
+            "subheading": "Our global leadership team represents an entirely new blend of business intelligence and tech expertise. Each member is dedicated to catalyzing change, delivering results and partnering with you to solve your complex business issues and help transform your business through digital technologies.",
+            "teamData": [
+                {
+                    "id": "1",
+                    "imgSrc": "/assets/images/about-us/team1.jpg",
+                    "memname": "Ravi Kumar",
+                    "memdesgn": "Chief Executive officer",
+                    "linkedin": ""
+                },
+                {
+                    "id": "2",
+                    "imgSrc": "/assets/images/about-us/team2.jpg",
+                    "memname": "Kumar Harsh",
+                    "memdesgn": "Delivery Director",
+                    "linkedin": ""
+                },
+                {
+                    "id": "3",
+                    "imgSrc": "/assets/images/about-us/team3.jpg",
+                    "memname": "Umesh Sharma",
+                    "memdesgn": "Chief People Officer",
+                    "linkedin": ""
+                },
+                {
+                    "id": "4",
+                    "imgSrc": "/assets/images/about-us/team1.jpg",
+                    "memname": "Ravi Kumar",
+                    "memdesgn": "Chief Executive officer",
+                    "linkedin": ""
+                },
+                {
+                    "id": "5",
+                    "imgSrc": "/assets/images/about-us/team2.jpg",
+                    "memname": "Kumar Harsh",
+                    "memdesgn": "Delivery Director",
+                    "linkedin": ""
+                },
+                {
+                    "id": "6",
+                    "imgSrc": "/assets/images/about-us/team3.jpg",
+                    "memname": "Umesh Sharma",
+                    "memdesgn": "Chief People Officer",
+                    "linkedin": ""
+                }
+            ]
+        },
+        "Section5": {
+            "heading": "Our Vision",
+            "subheading": "Our belief in creating tangible value for our customers is what we think is different about ELEKS. Our attention to detail and quality is unmatched in the industry. We're not just a resource provider. We value our customers' success as much as our own – sharing development risk, so that they can be bold in their adoption of new technologies.",
+            "visionData": [
+                {
+                    "id": "1",
+                    "mediaType": "image",
+                    "mediaSrc": "/assets/images/testimonial/testimonial1.jpg",
+                    "visionHeading": "Engineering With Passion",
+                    "visionSubheading": "We’re a network of innovators. We devise bold solutions to the most intricate client challenges. It’s our ability to explore new technologies to design best-fit solutions that has 96% of our clients ready to recommend us."
+                },
+                {
+                    "id": "2",
+                    "mediaType": "image",
+                    "mediaSrc": "/assets/images/testimonial/testimonial1.jpg",
+                    "visionHeading": "Engineering With Passion",
+                    "visionSubheading": "We’re a network of innovators. We devise bold solutions to the most intricate client challenges. It’s our ability to explore new technologies to design best-fit solutions that has 96% of our clients ready to recommend us."
+                },
+                {
+                    "id": "3",
+                    "mediaType": "image",
+                    "mediaSrc": "/assets/images/testimonial/testimonial1.jpg",
+                    "visionHeading": "Engineering With Passion",
+                    "visionSubheading": "We’re a network of innovators. We devise bold solutions to the most intricate client challenges. It’s our ability to explore new technologies to design best-fit solutions that has 96% of our clients ready to recommend us."
+                }
+            ]
+        },
+        "Section6": [
+            {
+                "id": "1",
+                "imgSrc": "/assets/images/others/client1.png"
+            },
+            {
+                "id": "2",
+                "imgSrc": "/assets/images/others/client2.png"
+            },
+            {
+                "id": "3",
+                "imgSrc": "/assets/images/others/client3.png"
+            },
+            {
+                "id": "4",
+                "imgSrc": "/assets/images/others/client4.png"
+            },
+            {
+                "id": "5",
+                "imgSrc": "/assets/images/others/client5.png"
+            },
+            {
+                "id": "6",
+                "imgSrc": "/assets/images/others/client6.png"
+            },
+            {
+                "id": "7",
+                "imgSrc": "/assets/images/others/client7.png"
+            }
+        ],
+        "Section7": {
+            "heading": "Our Brand Journey",
+            "journeyData": [
+                {
+                    "id": "1",
+                    "year": "2014",
+                    "yeartitle": "2014 : A vision takes shape",
+                    "desc": "Our technology solutions and services are built on 17 years of innovation"
+                },
+                {
+                    "id": "2",
+                    "year": "2015",
+                    "yeartitle": "2015 : A vision takes shape",
+                    "desc": "Our technology solutions and services are built on 17 years of innovation"
+                },
+                {
+                    "id": "3",
+                    "year": "2017",
+                    "yeartitle": "2017 : A vision takes shape",
+                    "desc": "Our technology solutions and services are built on 17 years of innovation"
+                },
+                {
+                    "id": "4",
+                    "year": "2018",
+                    "yeartitle": "2018 : A vision takes shape",
+                    "desc": "Our technology solutions and services are built on 17 years of innovation"
+                },
+                {
+                    "id": "5",
+                    "year": "2019",
+                    "yeartitle": "2019 : A vision takes shape",
+                    "desc": "Our technology solutions and services are built on 17 years of innovation"
+                },
+                {
+                    "id": "6",
+                    "year": "2020",
+                    "yeartitle": "2020 : A vision takes shape",
+                    "desc": "Our technology solutions and services are built on 17 years of innovation"
+                },
+                {
+                    "id": "7",
+                    "year": "2021",
+                    "yeartitle": "2021 : A vision takes shape",
+                    "desc": "Our technology solutions and services are built on 17 years of innovation"
+                },
+                {
+                    "id": "8",
+                    "year": "2022",
+                    "yeartitle": "2022 : A vision takes shape",
+                    "desc": "Our technology solutions and services are built on 17 years of innovation"
+                },
+                {
+                    "id": "9",
+                    "year": "2026",
+                    "yeartitle": "2026 : A vision takes shape",
+                    "desc": "Our technology solutions and services are built on 17 years of innovation"
+                }
+            ]
+        }
     }
 }

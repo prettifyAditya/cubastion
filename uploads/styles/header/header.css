@@ -1226,8 +1226,18 @@ img, video {
   border: none;
   background: none;
   color: var(--primary);
+  --padding: 0;
 }
 .btn.regular::before, .btn.regular::after {
+  display: none;
+}
+.btn.regular-white {
+  border: none;
+  background: none;
+  color: var(--white);
+  --padding: 0;
+}
+.btn.regular-white::before, .btn.regular-white::after {
   display: none;
 }
 .btn.white-border {
@@ -1363,10 +1373,8 @@ img, video {
   z-index: 2;
 }
 .banner .banner-wrapper h1, .banner .banner-wrapper h2 {
-  text-transform: uppercase;
   font-size: 48px;
   line-height: 1.2;
-  color: var(--white);
 }
 @media only screen and (max-width: 1280px) {
   .banner .banner-wrapper h1, .banner .banner-wrapper h2 {
@@ -2178,12 +2186,14 @@ header .header-container .colC .lang_select .selected_lang .icon {
 header.header-fixed {
   transition: 0.5s ease;
   height: var(--headerfixed);
+  box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
 }
 header.header-fixed::after {
   height: 100%;
 }
 header.header-fit {
   transition: 0.5s ease;
+  box-shadow: 0px 2px 8px 0px rgba(99, 99, 99, 0.2);
 }
 header.header-fit::after {
   height: 100%;

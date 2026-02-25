@@ -379,6 +379,14 @@ img, video
         border: none
         background: none
         color: $primary
+        --padding: 0
+        &::before, &::after
+            display: none
+    &.regular-white
+        border: none
+        background: none
+        color: $white
+        --padding: 0
         &::before, &::after
             display: none
     &.white-border
@@ -471,10 +479,8 @@ img, video
         translate: 0 -50%
         z-index: 2
         h1, h2
-            text-transform: uppercase
             font-size: 48px
             line-height: 1.2
-            color: $white
             @include media(1280)
                 font-size: 44px
             @include media(991)

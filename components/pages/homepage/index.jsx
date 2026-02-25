@@ -1,3 +1,4 @@
+import staticData from "@/uploads/data/StaticData.json"
 import ClientsSec from "./ClientsSec";
 import HeroSection from "./HeroSection";
 import MapSec from "./MapSec";
@@ -5,10 +6,9 @@ import AboutSec from "./AboutSec";
 import IndustriesSec from "./IndustriesSec";
 import HighlightsSec from "./HighlightsSec";
 import ExpertInsights from "./ExpertInsights";
-import CustomerSec from "./CustomerSec";
-import staticData from "@/uploads/data/StaticData.json"
-import "@/uploads/styles/home/home.css"
+import CustomerSec from "../../organisms/CustomerSec";
 import ServicesSec from "./ServicesSec";
+import "@/uploads/styles/home/home.css"
 
 export default function Homepage() {
     const aboutSecData = staticData.Homepage.Section2

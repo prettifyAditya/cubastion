@@ -4,8 +4,13 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 import "@/uploads/styles/header/header.css"
 import Button from "../atoms/Button";
+import { usePathname } from "next/navigation";
 export default function Header(){
+    const pathname = usePathname()
     const [headerFixed, setHeaderFixed] = useState(false);
+
+    const aboutUsPage = pathname.startsWith('/about-us')
+    const headerFill = aboutUsPage
     useEffect(() => {
         const handleScroll = () => {
             setHeaderFixed(window.scrollY > 100);
@@ -18,7 +23,7 @@ export default function Header(){
         }
     }, [])
     return(
-        <header className={`${headerFixed ? "header-fixed" : ""}`}>
+        <header className={`${headerFixed ? "header-fixed" : ""} ${headerFill ? "header-fit" : ""}`}>
             <div className="container header-container">
                 <div className="colA">
                     <Link href="/" className="logo">
