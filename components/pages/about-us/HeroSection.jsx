@@ -10,8 +10,8 @@ export default function HeroSection({ data }) {
                     <div className="banner-wrapper">
                         <div className="container">
                             <div className="heading">
-                                <h1>About Us</h1>
-                                <p>19 Years of delivering positive business impact with capability and zero failure</p>
+                                <h1>{data.heading}</h1>
+                                <p>{data.subheading}</p>
                             </div>
                             <div className="ceo_details">
                                 <figure>

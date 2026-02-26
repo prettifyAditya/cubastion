@@ -460,36 +460,39 @@
                 }
             ]
         },
-        "Section6": [
-            {
-                "id": "1",
-                "imgSrc": "/assets/images/others/client1.png"
-            },
-            {
-                "id": "2",
-                "imgSrc": "/assets/images/others/client2.png"
-            },
-            {
-                "id": "3",
-                "imgSrc": "/assets/images/others/client3.png"
-            },
-            {
-                "id": "4",
-                "imgSrc": "/assets/images/others/client4.png"
-            },
-            {
-                "id": "5",
-                "imgSrc": "/assets/images/others/client5.png"
-            },
-            {
-                "id": "6",
-                "imgSrc": "/assets/images/others/client6.png"
-            },
-            {
-                "id": "7",
-                "imgSrc": "/assets/images/others/client7.png"
-            }
-        ],
+        "Section6": {
+            "heading": "Awards and Recognition",
+            "awardsData": [
+                {
+                    "id": "1",
+                    "imgSrc": "/assets/images/others/client1.png"
+                },
+                {
+                    "id": "2",
+                    "imgSrc": "/assets/images/others/client2.png"
+                },
+                {
+                    "id": "3",
+                    "imgSrc": "/assets/images/others/client3.png"
+                },
+                {
+                    "id": "4",
+                    "imgSrc": "/assets/images/others/client4.png"
+                },
+                {
+                    "id": "5",
+                    "imgSrc": "/assets/images/others/client5.png"
+                },
+                {
+                    "id": "6",
+                    "imgSrc": "/assets/images/others/client6.png"
+                },
+                {
+                    "id": "7",
+                    "imgSrc": "/assets/images/others/client7.png"
+                }
+            ]
+        },
         "Section7": {
             "heading": "Our Brand Journey",
             "journeyData": [
@@ -548,6 +551,16 @@
                     "desc": "Our technology solutions and services are built on 17 years of innovation"
                 }
             ]
+        }
+    },
+
+    "ContactUs": {
+        "Section1": {
+            "heading": "Let’s build what’s next, together.",
+            "btnText": "Book a Consultation"
+        }, 
+        "Section2": {
+            
         }
     }
 }

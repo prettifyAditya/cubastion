@@ -431,6 +431,10 @@
                 height: 2px
                 background: #d0d0d0
                 z-index: 1
+            .time_col
+                position: relative
+                flex: 1
+                z-index: 2
             input
                 display: none
                 &:checked
@@ -467,7 +471,6 @@
                             bottom: calc(50% + 80px)
             .time-item
                 position: relative
-                flex: 1
                 z-index: 2
                 .year
                     position: absolute
@@ -501,9 +504,9 @@
                         transition: height 0.3s ease
                 .content
                     position: absolute
-                    left: 140%
+                    left: 50%
                     transform: translateY(10px)
-                    width: 280px
+                    width: 310px
                     padding-left: 30px
                     opacity: 0
                     visibility: hidden
@@ -514,6 +517,7 @@
                         font-size: 20px
                         font-weight: 600
                         line-height: 1.2
+                        margin-bottom: 10px
                     p
                         font-size: 14px
             

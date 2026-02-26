@@ -7,9 +7,9 @@ export default function AwardsSec({ data }){
             <div className="awards_sec sec-pad-all">
                 <div className="container">
                     <div className="heading">
-                        <h2>Awards and Recognition</h2>
+                        <h2>{data.heading}</h2>
                     </div>
-                    <AwardsSlider data={data} />
+                    <AwardsSlider data={data.awardsData} />
                 </div>
             </div>
         </section>

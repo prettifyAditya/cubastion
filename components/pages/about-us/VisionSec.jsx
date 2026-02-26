@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image";
 import { useState } from "react";
-import Button from "@/components/atoms/Button";
 
 export default function VisionSec({ data }){
     if(!data) return null;
