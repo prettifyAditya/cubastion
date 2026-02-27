@@ -16,6 +16,17 @@
     --font: normal
     --textareaheight: 86px
     --paddingleftright: 0px
+    &.white
+        --labelbefore: #FFFFFFB2
+        --labelafter: var(--white)
+        --borderbefore: #FFFFFFB2
+        --borderafter: var(--white)
+        --color: var(--white)
+        .form-group
+            input, textarea
+                caret-color: $white
+                &:-webkit-autofill
+                    -webkit-text-fill-color: #fff !important
     .form-group
         position: relative
         flex: 0 1 100%
@@ -179,6 +190,9 @@
     --arrow: 15px
     --arrowspace: 8px
     --paddingleftright: 0
+    &.valid
+        .current
+            color: var(--labelafter)
     &.has-icon
         --iconsize: 12px
         // --iconurl: url(../../icon/location-gradient.svg)
@@ -201,7 +215,7 @@
         right: var(--paddingleftright)
         bottom: 0
         width: var(--arrow)
-        // background-image: url(../../icon/arrow-down-gray.svg)
+        background-image: url(/assets/icon/arrow-down-gray.svg)
         background-position: 0 50%
         background-repeat: no-repeat
         background-size: 100% auto

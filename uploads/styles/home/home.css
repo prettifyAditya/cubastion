@@ -687,23 +687,6 @@
   justify-content: center;
 }
 
-.client_sec .main_wrapper .client_slider .swiper-wrapper {
-  transition-timing-function: linear !important;
-}
-.client_sec .main_wrapper .client_slider figure {
-  background: #EDEDED;
-  padding: 40px 20px;
-  width: 100%;
-  transform: skewX(15deg);
-}
-.client_sec .main_wrapper .client_slider figure img {
-  height: 75px;
-  transform: skewX(-15deg);
-  -o-object-fit: contain;
-     object-fit: contain;
-  background-blend-mode: multiply;
-}
-
 .map_sec .heading {
   max-width: 460px;
   margin: 0 auto 50px;

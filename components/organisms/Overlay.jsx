@@ -7,9 +7,10 @@ export default function Overlay() {
     const isEnquireOpen = useModalStore((state) => state.isEnquireOpen);
     const isVideoOpen= useModalStore((state) => state.isVideoOpen)
     const isThankyouOpen= useModalStore((state) => state.isThankyouOpen)
+    const isRegionPopOpen= useModalStore((state) => state.isRegionPopOpen)
     const closeAll = useModalStore((state) => state.closeAll);
 
-    const isAnyOpen = isHamOpen || isEnquireOpen || isVideoOpen || isThankyouOpen
+    const isAnyOpen = isHamOpen || isEnquireOpen || isVideoOpen || isThankyouOpen || isRegionPopOpen
     useEffect(() => {
         if (isAnyOpen) {
         document.body.classList.add('overflow-hidden');

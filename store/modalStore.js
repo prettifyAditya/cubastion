@@ -7,6 +7,7 @@ export const useModalStore = create((set) => {
       isEnquireOpen: false,
       isVideoOpen: false,
       isThankyouOpen: false,
+      isRegionPopOpen: false, 
     });
 
   return {
@@ -14,6 +15,13 @@ export const useModalStore = create((set) => {
     isEnquireOpen: false,
     isVideoOpen: false,
     isThankyouOpen: false,
+    isRegionPopOpen: false, 
+
+    openRegionPop: () => {
+      closeAll();
+      set({ isRegionPopOpen: true });
+    },
+    closeRegionPop: () => set({ isRegionPopOpen: false }),
 
     openHam: () => {
       closeAll();

@@ -556,11 +556,88 @@
 
     "ContactUs": {
         "Section1": {
+            "bgmedia": "/assets/video/aboutus_banner.mp4",
             "heading": "Let’s build what’s next, together.",
             "btnText": "Book a Consultation"
         }, 
-        "Section2": {
-            
-        }
+        "Section2": [
+            {
+                "id": "1",
+                "place": "U.S. Office",
+                "address": "971 US Highway 202N, STE R, Branchburg, NJ 08876",
+                "btnText": "Get Directions",
+                "mail": "solutions@cubastion.com",
+                "mobileNo": "+1 609 874 3572",
+                "mapPoint": "New Jersey, U.S."
+            },
+            {
+                "id": "2",
+                "place": "Gurugram Office",
+                "address": "971 US Highway 202N, STE R, Branchburg, NJ 08876 2",
+                "btnText": "Get Directions",
+                "mail": "solutions@cubastion.com",
+                "mobileNo": "+1 609 874 3572",
+                "mapPoint": "Gurugram, India"
+            },
+            {
+                "id": "3",
+                "place": "Bengaluru Office",
+                "address": "971 US Highway 202N, STE R, Branchburg, NJ 08876 3",
+                "btnText": "Get Directions",
+                "mail": "solutions@cubastion.com",
+                "mobileNo": "+1 609 874 3572",
+                "mapPoint": "Bengaluru, India"
+            },
+            {
+                "id": "4",
+                "place": "Japan Office",
+                "address": "971 US Highway 202N, STE R, Branchburg, NJ 08876 4",
+                "btnText": "Get Directions",
+                "mail": "solutions@cubastion.com",
+                "mobileNo": "+1 609 874 3572",
+                "mapPoint": "Japan, Japan"
+            }
+        ]
+    },
+
+    "IndustryDetails": {
+        "Section2": [
+            {
+                "id": 1,
+                "imgSrc": "/assets/images/others/client1.png"
+            },
+            {
+                "id": 2,
+                "imgSrc": "/assets/images/others/client2.png"
+            },
+            {
+                "id": 3,
+                "imgSrc": "/assets/images/others/client3.png"
+            },
+            {
+                "id": 4,
+                "imgSrc": "/assets/images/others/client4.png"
+            },
+            {
+                "id": 5,
+                "imgSrc": "/assets/images/others/client5.png"
+            },
+            {
+                "id": 6,
+                "imgSrc": "/assets/images/others/client6.png"
+            },
+            {
+                "id": 7,
+                "imgSrc": "/assets/images/others/client7.png"
+            },
+            {
+                "id": 8,
+                "imgSrc": "/assets/images/others/client1.png"
+            },
+            {
+                "id": 9,
+                "imgSrc": "/assets/images/others/client2.png"
+            }
+        ]
     }
 }

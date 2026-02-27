@@ -5,9 +5,9 @@ import ClientSec from "./ClientSec";
 import TeamSec from "./TeamSec";
 import AwardsSec from "./AwardsSec";
 import CustomerSec from "../../organisms/CustomerSec";
-import "@/uploads/styles/about/about.css"
 import VisionSec from "./VisionSec";
 import BrandJourney from "./BrandJourney";
+import "@/uploads/styles/about/about.css"
 
 export default function AboutUsPage() {
     const heroSecData = staticData.AboutUs.Section1

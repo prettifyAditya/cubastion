@@ -10,7 +10,8 @@ export default function Header(){
     const [headerFixed, setHeaderFixed] = useState(false);
 
     const aboutUsPage = pathname.startsWith('/about-us')
-    const headerFill = aboutUsPage
+    const contactUsPage = pathname.startsWith('/contact-us')
+    const headerFill = aboutUsPage || contactUsPage
     useEffect(() => {
         const handleScroll = () => {
             setHeaderFixed(window.scrollY > 100);

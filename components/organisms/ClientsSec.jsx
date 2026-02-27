@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; 
 import "swiper/css/autoplay";
 import { Autoplay } from "swiper/modules";
+import "@/uploads/styles/component/component.css"
 
 export default function ClientsSec({ data }) {
     if(!data) return null

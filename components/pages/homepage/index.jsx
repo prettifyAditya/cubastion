@@ -1,5 +1,5 @@
 import staticData from "@/uploads/data/StaticData.json"
-import ClientsSec from "./ClientsSec";
+import ClientsSec from "../../organisms/ClientsSec";
 import HeroSection from "./HeroSection";
 import MapSec from "./MapSec";
 import AboutSec from "./AboutSec";
